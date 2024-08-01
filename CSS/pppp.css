@@ -1,0 +1,111 @@
+.container {
+    max-width: 1200px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+/* 
+.bot{
+    padding-left: 3rem ;
+} */
+
+.bot .left {
+    float: left;
+    width: 50%;
+    /* padding-left: 3rem; */
+}
+
+.bot .right {
+    float: right;
+    width: 50%;
+}
+
+.bot::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+
+.counts {
+    margin-top: 3rem;
+}
+
+.counts .count-item {
+    float: left;
+    width: 25%;
+    /* text-align: center; */
+}
+
+.counts::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.banner {
+    margin-top: 3rem;
+    background: red;
+}
+
+.banner .ban-left {
+    float: left;
+    width: 60%;
+}
+
+.banner .ban-right {
+    float: right;
+    width: 40%;
+}
+
+.banner::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.navbar {
+    /* border: 2px solid white; */
+    padding: 1rem;
+}
+
+/* .header .logo,
+.navbar a {
+    color: white;
+} */
+
+.navbar .logo {
+    float: left;
+    /* font-size: 3.5rem; */
+}
+
+.navbar .nav-items {
+    float: right;
+    margin-top: 1rem;
+}
+
+.navbar .nav-item {
+    display: inline-block;
+    padding: 1rem;
+    text-transform: uppercase;
+
+}
+
+.navbar a:link,
+.navbar a:visited {
+    color: #f4f4f4;
+}
+
+.navbar a {
+    padding-bottom: 0.3rem;
+}
+
+.navbar a:hover {
+    border-bottom: 1px solid #f4f4f4;
+}
+
+.navbar::after {
+    content: "";
+    display: block;
+    clear: both;
+}
